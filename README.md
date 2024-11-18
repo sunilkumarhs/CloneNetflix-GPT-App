@@ -1,4 +1,4 @@
-# Netflix-GPT
+# CloneNetflix-GPT
 
 -Create React App
 -Configured TailwindCSS
