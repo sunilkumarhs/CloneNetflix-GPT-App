@@ -10,7 +10,7 @@ const VideoDetails = ({ title, overview }) => {
           {title?.original_title || title?.name || title}
         </h1>
         <p className="font-semibold w-[30%] h-44 py-3 text-white md:block hidden overflow-y-hidden text-ellipsis">
-          {title.overview || overview}
+          {title?.overview || overview}
         </p>
         <div className="md:pt-8 pt-4 flex">
           <button className="flex bg-red-500 hover:bg-red-400 rounded-md md:px-5 px-3 py-2">

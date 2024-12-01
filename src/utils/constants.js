@@ -22,4 +22,4 @@ export const IMG_PATH = "https://image.tmdb.org/t/p/w300";
 export const GPT_IMG =
   "https://img.freepik.com/free-vector/chat-bot-concept-illustration_114360-5412.jpg?w=740&t=st=1704179389~exp=1704179989~hmac=9ad4142da9fd6382f172e92eca05177a1748fc9d5d87bc3ff1e6642c1f3c79bb";
 
-export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+export const OPENAI_KEY = localStorage.getItem("gptKey");
